@@ -1,0 +1,74 @@
+#frag-list {
+    height: 93.5vh;
+    display: inline-block;
+    width: 15vw;
+}
+
+#frag-list ul {
+    padding: 2px;
+}
+
+#frag-list ul li {
+    background-color: #167e56;
+    margin: 2px;
+    border: 1px solid #ddd;
+}
+
+#frag-list ul li:hover {
+    color: #222227;
+    background-color: #ddd;
+}
+
+.fragments {
+    border-left: 1px solid white;
+    width: 85vw;
+    height: 93.5vh;
+    float: right;
+}
+
+.fam-plate {
+    background-color: #167e56;
+    transition: background-color .5s;
+    width: 20vw;
+    display: inline-block;
+    margin: 10px 20px;
+    border: 2px solid #ddd;
+}
+
+.fam-plate:hover {
+    background-color: #20ac76;
+}
+
+.found {
+    background-color: #4f167e;
+    transition: background-color .5s;
+    width: 20vw;
+    display: inline-block;
+    margin: 10px 20px;
+    border: 2px solid #ddd;
+}
+
+.familiar {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: #ddd;
+    text-decoration: none;
+    background-color: #222227;
+    border: 2px solid #ddd;
+    font-family: inherit;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 3px 0px;
+    width: 20%;
+    height: 8vh;
+}
+
+button:hover {
+    color: #222227;
+    background-color: #ddd;
+}

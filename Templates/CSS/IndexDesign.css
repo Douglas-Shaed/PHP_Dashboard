@@ -1,0 +1,172 @@
+body {
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.Calendar {
+    width: 85.25vw;
+    height: 21.5vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #222227;
+    float: right;
+}
+
+.month {
+    width: 100%;
+    height: 11vh;
+    background-color: #167e56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.month i {
+    cursor: pointer;
+}
+
+.month h1 {
+    text-transform: uppercase;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.week {
+    width: 100%;
+    height: 2rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+.week div {
+    width: calc(100%/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .2rem;
+    color: white;
+}
+
+.days div {
+    width: calc(100%/7);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: #262626;
+    border: .2rem solid #777;
+    cursor: pointer;
+}
+
+.prev-date, .next-date {
+    opacity: .5;
+}
+
+.today {
+    background-color: #167e56;
+}
+
+.Gallery {
+    float: left;
+    display: block;
+    height: 93vh;
+    width: 14.75vw;
+    background-color: #222227;
+}
+
+.img {
+    height: 80.5vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.img::-webkit-scrollbar {
+    display: none;
+}
+
+.galTitle {
+    background-color: #167e56;
+    text-decoration: none;
+    text-align: center;
+    padding: 22px 16px;
+    height: 11vh;
+}
+
+.Gallery img {
+    display: block;
+    opacity: 0.9;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 95%;
+}
+
+.Gallery img:hover {
+    opacity: 1;
+}
+
+.Task {
+    height: 93.5vh;
+}
+
+.Tasks {
+    display: inline-block;
+    background-color: #222227;
+    margin: 15px;
+    width: 82vw;
+    height: 17.5vh;
+}
+
+.Tasks h2 {
+    float: left;
+}
+
+.Tasks h3 {
+    float: right;
+    padding: 4px 0px;
+}
+
+.Tasks p {
+    color: white;
+    width: 60%;
+    float: left;
+    padding: 10px 8px;
+}
+
+.Head {
+    background-color: #167e56;
+    color: #151515;
+    overflow: auto;
+    padding: 2px 5px;
+    border-bottom: 2px solid #777;
+}
+
+.Sub {
+    float: right;
+    width: 25%;
+    color: white;
+    padding: 10px 3px;
+}
+

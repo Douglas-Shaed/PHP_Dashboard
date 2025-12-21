@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    /* border: 1px #777 solid; */
+} 
+
+html {
+    height: 100%;
+    padding-bottom: 10px;
+    background-color: #151515;
+}
+
+.Header a {
+    float: left;
+    color: white;
+    background-color: #222227;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.Header a:hover {
+    background-color: #ddd;
+    color:#222227
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: #151515;
+    border: none;
+}
+
+.Calendar {
+    width: 100%;
+    height: 93.5vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #222227;
+}
+
+.month {
+    width: 100%;
+    height: 5rem;
+    background-color: #167e56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.month i {
+    cursor: pointer;
+}
+
+.month h1 {
+    text-transform: uppercase;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.week {
+    width: 100vw;
+    height: 2rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+.week div {
+    width: calc(100%/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222227;
+    color: white;
+}

@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+html {
+    height: 100vh;
+    padding-bottom: 10px;
+    background-color: #151515;
+}
+
+.Header a {
+    float: left;
+    color: #ddd;
+    background-color: #222227;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.Header a:hover {
+    background-color: #ddd;
+    color:#222227
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: #151515;
+    border: none;
+}
+
+.Task {
+    width: 80vw;
+    height:92vh;
+    display: inline-block;
+    margin: 0px;
+}
+
+.Tasks {
+    display: inline-block;
+    background-color: #222227;
+    width: 100%;
+    margin: 15px 5px;
+}
+
+.Tasks h2 {
+    float: left;
+}
+
+.Tasks h3 {
+    float: right;
+    padding: 4px 0px;
+}
+
+.Tasks p {
+    color: white;
+    width: 60%;
+    float: left;
+    padding: 10px 8px;
+}
+
+.Head {
+    background-color: #167e56;
+    color: #151515;
+    overflow: auto;
+    padding: 2px 5px;
+    border-bottom: 2px solid #777;
+}
+
+.Sub {
+    float: right;
+    width: 25%;
+    color: white;
+    padding: 10px 3px;
+}
+
+.clicked {
+    color: #167e56;
+}
+
+.TaskGen {
+    background-color: #222227;
+    float: right;
+    width: 18vw;
+    height: 88vh;
+    margin: 15px 0px;
+    display: block;
+}
+
+.TaskGen h2 {
+    background-color: #167e56;
+    text-align: center;
+    padding: 3px 5px;
+    border-bottom: 2px solid #777;
+}
+
+.TaskGen label {
+    color: white;
+}
+
+Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222227;
+    color: #ddd;
+}
