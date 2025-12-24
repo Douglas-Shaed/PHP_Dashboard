@@ -1,5 +1,5 @@
 <?php 
-    $mydir = "/Coding/Projects/Dashboard/Gallery/Images/Testing";
+    $mydir = "/Coding/Projects/Dashboard/Gallery/Images/Mine";
     $galImages = scandir($mydir);
 ?>
 
@@ -28,7 +28,7 @@
 
             for(var i = 2; i < imageArray.length; i++){
                 if(imageArray[i] != 'Gallery.php') {
-                    imgElements += `<div class="gallery"><img src="/Gallery/Images/Testing/${imageArray[i]}" onclick="zoomIn(this.id)" id="img${i}"><div class="desc"><p>${imageDesc[i]}</p></div></div>`;
+                    imgElements += `<div class="gallery"><img src="/Gallery/Images/Mine/${imageArray[i]}" onclick="zoomIn(this.id)" id="img${i}"><div class="desc"><p>${imageDesc[i]}</p></div></div>`;
                 }
             }
 
